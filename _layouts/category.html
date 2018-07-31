@@ -1,0 +1,11 @@
+--- 
+layout: page 
+---
+
+<div class="columns is-multiline is-centered">
+{% for product in site.data.products[page.category_name] %}
+    <div class="column is-mobile is-half-tablet is-one-third-desktop is-one-third-widescreen is-one-third-fullhd ">
+        {% include product_thumb.html %}
+        </div>
+    {% endfor %}
+</div>
