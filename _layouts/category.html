@@ -4,7 +4,7 @@ layout: page
 
 <div class="columns is-multiline is-centered">
 {% for product in site.data.products[page.category_name] %}
-    <div class="column is-mobile is-half-tablet is-one-third-desktop is-one-third-widescreen is-one-third-fullhd ">
+    <div class="column is-mobile is-half-tablet is-one-quarter-desktop is-one-quarter-widescreen is-one-quarter-fullhd ">
         {% include product_thumb.html %}
         </div>
     {% endfor %}

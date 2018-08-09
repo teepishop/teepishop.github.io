@@ -23,22 +23,6 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 title:		           'Lagrange'
 description:	       'a minimalist Jekyll theme'
 author:              'Paul Le'
-category_list:
-  -
-    url: kinh-nghiem
-    name: TPCN
-  -
-    url: ngao-du-ky
-    name: MP
-  -
-    url: du-ky
-    name: TP
-  -
-    url: xuyen-viet
-    name: TT
-  -
-    url: xuyen-viet-2
-    name: NB
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
 #  path: rss-feed.xml
